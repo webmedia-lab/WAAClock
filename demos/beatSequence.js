@@ -2,8 +2,8 @@ if (!window.AudioContext) alert('you browser doesnt support Web Audio API')
 
 var soundBank = {}
   , beats = {}
-  , tempo = QUERY.tempo || 120
-  , signature = QUERY.signature || 4
+  , tempo = QUERY.tempo || 200
+  , signature = QUERY.signature || 7
   , beatDur = 60/tempo
   , barDur = signature * beatDur
   , clock, context, uiEvent
